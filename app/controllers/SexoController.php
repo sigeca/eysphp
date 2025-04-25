@@ -11,10 +11,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/eysphp/app/models/Sexo.php';
 
 
 
-
-
-
-
 class SexoController {
     private $sexo;
     private $db;
