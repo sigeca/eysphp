@@ -2,7 +2,7 @@
 session_start();
 
 $requestUri = $_SERVER["REQUEST_URI"];
-$basePath = '/facebook5b/public/';
+$basePath = '/eysphp/public/';
 $route = str_replace($basePath, '', $requestUri);
 $route = strtok($route, '?'); // Quitar parámetros GET
 
